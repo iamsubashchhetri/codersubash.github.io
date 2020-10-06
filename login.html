@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Coder Subash</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/animate.css">
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="static/css/magnific-popup.css">
+    <link rel="stylesheet" href="static/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="static/css/jquery.timepicker.css">
+    <link rel="stylesheet" href="static/css/flaticon.css">
+    <link rel="stylesheet" href="static/css/style.css">
+
+
+
+<link rel="icon" type="image/png" href="static/subash/images/icons/favicon.ico" />
+
+<link rel="stylesheet" type="text/css" href="static/subash/vendor/bootstrap/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="static/subash/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="static/subash/fonts/iconic/css/material-design-iconic-font.min.css">
+
+<link rel="stylesheet" type="text/css" href="static/subash/vendor/animate/animate.css">
+
+<link rel="stylesheet" type="text/css" href="static/subash/vendor/css-hamburgers/hamburgers.min.css">
+
+<link rel="stylesheet" type="text/css" href="static/subash/vendor/animsition/css/animsition.min.css">
+
+<link rel="stylesheet" type="text/css" href="static/subash/vendor/select2/select2.min.css">
+
+<link rel="stylesheet" type="text/css" href="static/subash/vendor/daterangepicker/daterangepicker.css">
+
+<link rel="stylesheet" type="text/css" href="static/subash/css/util.css">
+<link rel="stylesheet" type="text/css" href="static/subash/css/main.css">
+</head>
+
+<body  style="background-image:url(static/images/bg_1.jpg);">
+    <div class="wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <p class="mb-0 location">
+                        <span class="fa fa-map-marker mr-2"></span> 203 Fake St. Mountain View, San Francisco, California, USA
+                    </p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-md-end">
+                    <div class="social-media">
+                        <p class="mb-0 d-flex">
+                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" style="color:rgb(171, 220, 228)" href="index.html">Coder Subash</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="oi oi-menu"></span> Menu
+</button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about" class="nav-link">About</a></li>
+                    
+                    <li class="nav-item"><a href="blog" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="limiter">
+        <div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+        <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+        <form action="login" method="POST" class="login100-form validate-form" >
+            {% csrf_token %}
+        <span class="login100-form-title p-b-49">
+        Login
+        </span>
+        <div class="wrap-input100 validate-input m-b-23" data-validate="Username is reauired">
+        <span class="label-input100">Username</span>
+        <input class="input100" type="text" name="username" placeholder="Type your username">
+        <span class="focus-input100" data-symbol="&#xf206;"></span>
+        </div>
+        <div class="wrap-input100 validate-input" data-validate="Password is required">
+        <span class="label-input100">Password</span>
+        <input class="input100" type="password" name="pass" placeholder="Type your password">
+        <span class="focus-input100" data-symbol="&#xf190;"></span>
+        </div>
+        <div class="text-right p-t-8 p-b-31">
+        <a href="#">
+        Forgot password?
+        </a>
+        </div>
+        <div class="container-login100-form-btn">
+        <div class="wrap-login100-form-btn">
+        <div class="login100-form-bgbtn"></div>
+        <button class="login100-form-btn">
+        Login
+        </button>
+        </div>
+        </div>
+        <div class="txt1 text-center p-t-54 p-b-20">
+        <span>
+        Or Sign Up Using
+        </span>
+        <br>
+        <a href="signup" class="txt2">
+            Sign Up
+            </a>
+        </div>
+        <div class="flex-c-m">
+        <a href="https://www.facebook.com/subuu.pou/" class="login100-social-item bg1">
+        <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://www.twitter.com/" class="login100-social-item bg2">
+        <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.google.com/" class="login100-social-item bg3">
+        <i class="fa fa-google"></i>
+        </a>
+        </div>
+        
+        </form>
+        </div>
+        </div>
+        </div>
+        <div id="dropDownSelect1"></div>
+        <script src="static/subash/vendor/jquery/jquery-3.2.1.min.js" type="a89eb8afd3450ce139d281b8-text/javascript"></script>
+
+<script src="static/subash/vendor/animsition/js/animsition.min.js" type="a89eb8afd3450ce139d281b8-text/javascript"></script>
+
+<script src="static/subash/vendor/bootstrap/js/popper.js" type="a89eb8afd3450ce139d281b8-text/javascript"></script>
+<script src="static/subash/vendor/bootstrap/js/bootstrap.min.js" type="a89eb8afd3450ce139d281b8-text/javascript"></script>
+
+<script src="static/subash/vendor/select2/select2.min.js" type="a89eb8afd3450ce139d281b8-text/javascript"></script>
+
+<script src="static/subash/vendor/daterangepicker/moment.min.js" type="a89eb8afd3450ce139d281b8-text/javascript"></script>
+<script src="static/subash/vendor/daterangepicker/daterangepicker.js" type="a89eb8afd3450ce139d281b8-text/javascript"></script>
+
+<script src="static/subash/vendor/countdowntime/countdowntime.js" type="a89eb8afd3450ce139d281b8-text/javascript"></script>
+
+<script src="static/subash/js/main.js" type="a89eb8afd3450ce139d281b8-text/javascript"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13" type="a89eb8afd3450ce139d281b8-text/javascript"></script>
+<script type="a89eb8afd3450ce139d281b8-text/javascript">
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="a89eb8afd3450ce139d281b8-|49" defer=""></script>
+
+  </body>
+  </html>
